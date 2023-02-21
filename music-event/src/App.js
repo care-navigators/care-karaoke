@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import { Button, Dropdown } from 'react-bootstrap';
+import Home from "./pages/home.js"
+import Bios from "./pages/bios.js"
+import About from "./pages/about.js"
+import NotFound from "./pages/notfound.js"
+import Services from "./pages/services.js"
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,7 +23,7 @@ export default function Navigation() {
   }
 
   return (
-    <Router>
+    <>
       <div className="menu-btn-container">
         <Button variant="outline-dark" onClick={toggleNav}>
           Menu
@@ -39,9 +44,18 @@ export default function Navigation() {
                 </ul>
           </li>
           <li><Link to="/bios">Bios</Link></li>
-          <li><Link to="/about-us">About Us</Link></li>
+          <li><Link to="/about">About Us</Link></li>
         </ul>
       </div>
-    </Router>
+      <div className="tabcontent">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/bios" element={<Bios />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
+    </>
   );
 }
