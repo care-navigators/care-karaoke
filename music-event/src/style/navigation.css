@@ -1,0 +1,57 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    transition: right 0.3s ease;
+  }
+  
+  .navbar.show {
+    right: 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar ul ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul ul li {
+    padding: 5px 0 5px 20px;
+  }
+  
+  .menu-btn-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    z-index: 1;
+  }
+
+  .services-link .services-dropdown {
+    display: none;
+  }
+
+  .services-link:hover .services-dropdown {
+    display: inline;
+  }
+  
+
+
+  
