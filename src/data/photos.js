@@ -29,6 +29,6 @@ export const Photos = [
     },
     {
         "id": 7,
-        "imageUrl": require("../images/about/6.jpg"),
+        "imageUrl": require("../images/about/7.jpg"),
     },
 ]    
