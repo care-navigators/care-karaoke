@@ -1,9 +1,10 @@
 import React from 'react';
-import Home from "./pages/home.js"
-import Bios from "./pages/bios.js"
-import About from "./pages/about.js"
-import NotFound from "./pages/notfound.js"
-import Services from "./pages/services.js"
+import Home from "./pages/home.js";
+import Bios from "./pages/bios.js";
+import About from "./pages/about.js";
+import Everyone from "./pages/everyone.js";
+import NotFound from "./pages/notfound.js";
+import Services from "./pages/services.js";
 
 //Logos are sourced from --> https://uxwing.com/tag/social-media-icons/
 import fb from "./images/icons/fb.png";
@@ -42,7 +43,7 @@ export default function Navigation() {
                 </ul>
           </li>
           <li className="services-link">
-              Bios
+                <Link to="/Meet/The/Team">Bios</Link>    
                 <ul className="services-dropdown">
                   <li><Link to="/Bios/0">James</Link></li>
                   <li><Link to="/Bios/1">Jeremy</Link></li>
@@ -84,6 +85,7 @@ export default function Navigation() {
           <Route path="/services" element={<Services />} />
           <Route path="/bios/:id" element={<Bios />} />
           <Route path="/about" element={<About />} />
+          <Route path="/meet/the/team" element={<Everyone />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
