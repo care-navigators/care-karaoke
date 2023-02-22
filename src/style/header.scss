@@ -1,0 +1,63 @@
+// Color
+
+$red: #ff0000;
+$black: #000000;
+
+// Size
+$extra-large: 110px;
+$large: 84px;
+
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+  
+
+.header {
+    $random-text: 'foreign terrace';
+    $stroke-width: $extra-large * 0.05;
+    position: relative;
+    display: inline-block;
+    font-size: $extra-large;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke-width: $stroke-width;
+    -webkit-text-stroke-color: white;
+    white-space: nowrap;
+    $x: 12px;
+    $y: 15px;
+    $step: 1px;
+    @include center;
+        
+    text-shadow: $x $y $red,
+                 $x + $step $y + $step $black,
+                 $x + $step * 2 $y + $step * 2 $black,
+                 $x + $step * 3 $y + $step * 3 $black,
+                 $x + $step * 4 $y + $step * 4 $black,
+                 $x + $step * 5 $y + $step * 5 $black,
+                 $x + $step * 6 $y + $step * 6 $black,
+                 $x + $step * 7 $y + $step * 7 $black,
+                 $x + $step * 8 $y + $step * 8 $black,
+                 $x + $step * 9 $y + $step * 9 $black,
+                 $x + $step * 10 $y + $step * 10 $black,
+                 $x + $step * 11 $y + $step * 11 $black,
+                 $x + $step * 12 $y + $step * 12 $black,
+                 $x + $step * 13 $y + $step * 13 $black,
+                 $x + $step * 14 $y + $step * 14 $black,
+                 $x + $step * 15 $y + $step * 15 $black,
+                 $x + $step * 16 $y + $step * 16 $black,
+                 $x + $step * 17 $y + $step * 17 $black,
+                 $x + $step * 18 $y + $step * 18 $black,
+                 $x + $step * 19 $y + $step * 19 $black,
+                 $x + $step * 20 $y + $step * 20 $black,
+                 $x + $step * 21 $y + $step * 21 $black,
+}
+
+
+
+  

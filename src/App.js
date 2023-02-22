@@ -13,6 +13,7 @@ import mail from "./images/icons/mail.png"
 
 //Styling
 import "./style/app.scss";
+import "./style/header.scss"
 
 
 import {
@@ -27,6 +28,9 @@ export default function Navigation() {
 
   return (
     <>
+    <div className='contain'>
+      <h1 className='header'>Care Karaoke</h1>
+    </div>
       <div className={`navbar`}>
         <ul>
           <li><Link to="/">Home</Link></li>

@@ -1,12 +1,12 @@
+import carekaraoke from "../images/flyer.jpg";
+import "../style/home.css"
+
 export default function Home() {
     return (
-      <html id="top">
-        <div id="header">
-          <div class="inner">content</div>
-        </div>
-        <div id="wrap">
-          main content goes here
-      </div>
-      </html>
+      <>
+        <a className="flyer">
+          <img alt="care-karaoke" src={carekaraoke} /> 
+        </a>
+      </>
     );
 }
