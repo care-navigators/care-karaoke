@@ -1,8 +1,11 @@
 
 .bios {
-  display: table;
+  display: flex;
+  flex-wrap: wrap;
   height: 100%;
-  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10%;
   /* place-content: center;
   gap: 4vh;
   min-height: 100vh;
@@ -40,5 +43,7 @@
 }
 
 .bios-desc{
-
+  
+  align-items: center;
+  justify-content: center;
 }
