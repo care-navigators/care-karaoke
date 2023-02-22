@@ -1,15 +1,16 @@
-.navbar {
+.navbar{
     position: fixed;
     top: 0;
-    right: -200px;
+    right: -160px;
     width: 200px;
     height: 100%;
     background-color: #333;
-    transition: right 0.3s ease;
+    /* transition: right 0.3s ease; */
   }
   
-  .navbar.show {
+  .navbar:hover {
     right: 0;
+    transition: right 0.3s ease;
   }
   
   .navbar ul {
@@ -17,13 +18,68 @@
     padding: 0;
   }
   
+  .navbar ul li{
+    display: none;
+    
+  }
+  .navbar:hover ul li{
+    display: block;
+    
+  }
+
   .navbar li {
-    padding: 10px;
+    display: none;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .navbar:hover li {
+    display:block;
+    color: white;
+    border-top: 2px solid black;
+  }
+
+  .navbar li:hover {
+    font-size: 20px;
+    background-color: #444;
   }
   
   .navbar a {
     color: white;
     text-decoration: none;
+  }
+
+  .navbar:hover a {
+    display: inline-block;
+  }
+
+  /* Logos within the navbar*/
+  .navbar a img{
+      display: block;
+      width: 35px;
+      padding: 5px;
+  }
+
+  .navbar:hover a img{
+    display: inline-block;
+    width: 50px;
+    padding: 5px;
+}
+
+  /*  navbar h3 is the number    */
+  .navbar h3{
+    display: none;
+    color: white;
+    text-align: center;
+  }
+
+  .navbar:hover h3{
+    display: block;
   }
   
   .navbar ul ul {
@@ -52,6 +108,8 @@
     display: inline;
   }
   
-
-
+  .social-media-container { 
+    margin-top: 10px;
+  }
+    
   
