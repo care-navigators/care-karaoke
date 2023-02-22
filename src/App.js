@@ -44,6 +44,17 @@ export default function Navigation() {
                 </ul>
           </li>
           <li><Link to="/bios">Bios</Link></li>
+          <li className="services-link">
+              Bios
+                <ul className="services-dropdown">
+                  <li><Link to="/services/weddings">Weddings</Link></li>
+                  <li><Link to="/services/karaoke">Karaoke</Link></li>
+                  <li><Link to="/services/ds">DS</Link></li>
+                  <li><Link to="/services/corporation">Corporation</Link></li>
+                  <li><Link to="/services/events">Events</Link></li>
+                  <li><Link to="/services/parties">Parties</Link></li>
+                </ul>
+          </li>
           <li><Link to="/about">About Us</Link></li>
         </ul>
       </div>
@@ -51,7 +62,7 @@ export default function Navigation() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/bios" element={<Bios />} />
+          <Route path="/bios/:id" element={<Bios />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

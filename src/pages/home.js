@@ -1,7 +1,12 @@
 export default function Home() {
     return (
-        <>
-          <h1>Home</h1>
-        </>
-      );
+      <html id="top">
+        <div id="header">
+          <div class="inner">content</div>
+        </div>
+        <div id="wrap">
+          main content goes here
+      </div>
+      </html>
+    );
 }

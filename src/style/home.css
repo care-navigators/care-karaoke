@@ -1,0 +1,12 @@
+#header {
+    width: 100%;
+    overflow: hidden; /* contain floats */
+    height: 200px;
+    background-color: red !important;
+  }
+  
+  .inner, #wrap {
+    width: 80%;
+    margin: auto;
+  }
+  
