@@ -1,35 +1,26 @@
 
 .bios {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  position: relative;
   overflow: hidden;
-  margin-top: 10%;
-  /* place-content: center;
-  gap: 4vh;
-  min-height: 100vh;
-  width: min(60ch, 100vw - 2rem);
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 1.5rem;
-  line-height: 1.5; */
+  white-space: nowrap;
+  height: 100%;
+  display: flex;
 }
 
 
 .left-half {
   height: 100%;
-  display: table-cell;
+  /* //display: table-cell; */
   width: 50%;
-  text-align: center;
-  
+  display: flexbox;
+
 }
 
 .right-half {
-  height: 100%;
-  display: table-cell;
-  width: 50%;
-  
+  /* //display: table-cell; */
+  position:relative;
+  display: flexbox;
+  flex-wrap:wrap;
+
 }
 
 .img-container{
@@ -43,7 +34,4 @@
 }
 
 .bios-desc{
-  
-  align-items: center;
-  justify-content: center;
 }

@@ -38,16 +38,16 @@ export default function Navigation() {
           <li className="services-link">
               Services
                 <ul className="services-dropdown">
-                  <li><Link to="/services/weddings">Weddings</Link></li>
-                  <li><Link to="/services/karaoke">Karaoke</Link></li>
-                  <li><Link to="/services/ds">DS</Link></li>
-                  <li><Link to="/services/corporation">Corporation</Link></li>
-                  <li><Link to="/services/events">Events</Link></li>
-                  <li><Link to="/services/parties">Parties</Link></li>
+                  <li><Link to="/services/0">Weddings</Link></li>
+                  <li><Link to="/services/1">Karaoke</Link></li>
+                  <li><Link to="/services/2">DS</Link></li>
+                  <li><Link to="/services/3">Corporation</Link></li>
+                  <li><Link to="/services/4">Events</Link></li>
+                  <li><Link to="/services/5">Parties</Link></li>
                 </ul>
           </li>
           <li className="services-link">
-                <Link to="/Meet/The/Team">Bios</Link>    
+                <Link to="/Bios">Bios</Link>    
                 <ul className="services-dropdown">
                   <li><Link to="/Bios/0">James</Link></li>
                   <li><Link to="/Bios/1">Jeremy</Link></li>
@@ -86,10 +86,10 @@ export default function Navigation() {
       <div className="tabcontent">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/services/:id" element={<Services />} />
           <Route path="/bios/:id" element={<Bios />} />
           <Route path="/about" element={<About />} />
-          <Route path="/meet/the/team" element={<Everyone />} />
+          <Route path="/bios" element={<Everyone />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

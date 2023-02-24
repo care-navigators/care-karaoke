@@ -1,15 +1,21 @@
 .container{
+display: flex;
+flex-wrap: wrap;
 
 }
 
 .profile-container{
-    
+ padding: 15px!important;
+ 
 }
 
 .name{
+text-align: center;
 
 }
 
 .image{
-
+    height: 100px;
+    width: 100px;
+    padding: 10px;
 }
