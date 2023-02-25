@@ -1,7 +1,8 @@
 // Color
 
-$red: #ff0000;
-$black: #000000;
+$red: #900909;
+$black: #000000bb;
+$white: rgb(215, 205, 205);
 
 // Size
 $extra-large: 110px;
@@ -14,13 +15,75 @@ $large: 84px;
   justify-content: center;
 }
   
-@media only screen and (min-width: 600px) {
-  .header {
-    font-size: 30;
-  }
+@media only screen and  (max-width: 700px) {
+  .header{
+    //$random-text: 'foreign terrace';
+    $stroke-width: 25px * 0.05;
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: italic;
+    //color: transparent;
+    -webkit-text-stroke-width: $stroke-width;
+    -webkit-text-stroke-color: $white;
+    white-space: nowrap;
+    $x: 0px;
+    $y: 3px;
+    $step: 1px;
+    @include center;
+    
+        
+    text-shadow: $x $y $red ,
+    $x + $step $y + $step $black,
+    $x + $step * 2 $y + $step * 2 $black,
+    $x + $step * 3 $y + $step * 3 $black,
+    $x + $step * 4 $y + $step * 4 $black,
+    $x + $step * 5 $y + $step * 5 $black,
+    $x + $step * 6 $y + $step * 6 $black,
+    $x + $step * 7 $y + $step * 7 $black,
+    $x + $step * 8 $y + $step * 8 $black,
+    $x + $step * 9 $y + $step * 9 $black,
+    $x + $step * 10 $y + $step * 10 $black,
+
+}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1024px) and  (min-width: 700px) {
+  .header{
+    $random-text: 'foreign terrace';
+    $stroke-width: 50px * 0.05;
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: italic;
+    -webkit-text-stroke-width: $stroke-width;
+    -webkit-text-stroke-color: white;
+    white-space: nowrap;
+    $x: 0px;
+    $y: 3px;
+    $step: 1px;
+    @include center;
+        
+    text-shadow: $x $y $red,
+    $x + $step $y + $step $black,
+    $x + $step * 2 $y + $step * 2 $black,
+    $x + $step * 3 $y + $step * 3 $black,
+    $x + $step * 4 $y + $step * 4 $black,
+    $x + $step * 5 $y + $step * 5 $black,
+    $x + $step * 6 $y + $step * 6 $black,
+    $x + $step * 7 $y + $step * 7 $black,
+    $x + $step * 8 $y + $step * 8 $black,
+    $x + $step * 9 $y + $step * 9 $black,
+    $x + $step * 10 $y + $step * 10 $black,
+
+}
+}
+
+@media only screen and (min-width: 1024px) {
   .header {
       $random-text: 'foreign terrace';
       $stroke-width: $extra-large * 0.05;
@@ -30,12 +93,11 @@ $large: 84px;
       font-weight: 800;
       text-transform: uppercase;
       font-style: italic;
-      color: transparent;
       -webkit-text-stroke-width: $stroke-width;
       -webkit-text-stroke-color: white;
       white-space: nowrap;
-      $x: 12px;
-      $y: 15px;
+      $x: 0px;
+      $y: 3px;
       $step: 1px;
       @include center;
           

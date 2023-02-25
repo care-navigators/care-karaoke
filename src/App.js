@@ -29,9 +29,6 @@ export default function Navigation() {
 
   return (
     <>
-    <div className='contain'>
-      <h1 className='header'>Care Karaoke</h1>
-    </div>
       <div className={`navbar`}>
         <ul>
           <li><Link to="/">Home</Link></li>
@@ -47,7 +44,8 @@ export default function Navigation() {
                 </ul>
           </li>
           <li className="services-link">
-                <Link to="/Bios">Bios</Link>    
+                {/* <Link to="/Bios">Bios</Link>     */}
+                  Bios   
                 <ul className="services-dropdown">
                   <li><Link to="/Bios/0">James</Link></li>
                   <li><Link to="/Bios/1">Jeremy</Link></li>
@@ -89,7 +87,7 @@ export default function Navigation() {
           <Route path="/services/:id" element={<Services />} />
           <Route path="/bios/:id" element={<Bios />} />
           <Route path="/about" element={<About />} />
-          <Route path="/bios" element={<Everyone />} />
+          {/* <Route path="/bios" element={<Everyone />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

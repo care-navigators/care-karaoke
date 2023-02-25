@@ -10,7 +10,7 @@ export default function Services() {
     return(
         <div className='service'>
             <div className='top-half'>
-                <h1> { Data[id].name }  </h1>
+                <h1 className='header'> { Data[id].name }  </h1>
                 <a className='img-container'>
                     <img className='services-img' alt="services-photo" src={Data[id].imageUrl}/>
                 </a>

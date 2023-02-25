@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className='bios'>
       <div className='left-half'>
-        <h1>Jean</h1>
+        <h1 className='header'>Jean</h1>
         <Carousel interval={2250}>
           {Photos.map(photo => (
             <Carousel.Item key={photo.id}>

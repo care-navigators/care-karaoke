@@ -10,17 +10,15 @@ export default function Bios() {
     return(
         <div className='bios'>
             <div className='left-half'>
-                <h1> { Data[id].firstname + " " + Data[id].lastname }  </h1>
+                <h1 className='header'> { Data[id].firstname + " " + Data[id].lastname }  </h1>
                 <a className='img-container'>
                     <img className='bios-img' alt="bios-photo" src={Data[id].imageUrl}/>
                 </a>
             </div>
             <div className='right-half'>
-                <blockquote className='bios-desc' >
-                    <p>
-                        {Data[id].description}
-                    </p>
-                </blockquote>
+                <p>
+                    {Data[id].description}
+                </p>
             </div>
         </div>
     )
