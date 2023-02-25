@@ -2,81 +2,79 @@ export const Data = [
     {
         "id": 0,
         "firstname": "James",
-        "lastname": "Brown",
         "description": "I'm a Social Worker that loves to lift. I also am the governor of california and have starred in movies",
         "imageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
-        "secondImageUrl": "fdasd"
     },
     {
         "id": 1,
         "firstname": "Jeremy",
-        "lastname": "Brown",
         "description": "I'm a Social Worker",
         "imageUrl": "../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg",
-        "secondImageUrl": "fdasd"
     },
     {
         "id": 2,
         "firstname": "Zach",
-        "lastname": "Brown",
         "description": "I'm a Social Worker",
         "imageUrl": "asddasd",
-        "secondImageUrl": "fdasd"
     },
     {
         "id": 3,
         "firstname": "Danny",
-        "lastname": "Brown",
         "description": "I'm a Social Worker",
         "imageUrl": "asddasd",
-        "secondImageUrl": "fdasd"
     },
     {
         "id": 4,
         "firstname": "Jarelle",
-        "lastname": "Brown",
         "description": "I'm a Social Worker",
         "imageUrl": "asddasd",
-        "secondImageUrl": "fdasd"
     } ,
     {
         "id": 5,
         "firstname": "Rachelle",
-        "lastname": "Brown",
         "description": "I'm a Social Worker",
         "imageUrl": "../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg",
-        "secondImageUrl": "fdasd"
     },
     {
         "id": 6,
         "firstname": "Bill",
-        "lastname": "Brown",
-        "description": "I'm a Social Worker",
-        "imageUrl": "asddasd",
-        "secondImageUrl": "fdasd"
+        "description": "A popular KJ that draws experience from a lifelong commitment to music, live performances, and bands. Bill (AKA Counterfeit) enjoys providing the best sound possible with a positive and encouraging presence. He reads the crowd and provides a show that everyone enjoys. ",
+        "imageUrl": require("../images/people/bill.jpg"),
     },
     {
         "id": 7,
         "firstname": "Jerm",
-        "lastname": "Brown",
         "description": "I'm a Social Worker",
         "imageUrl": "asddasd",
-        "secondImageUrl": "fdasd"
     },
     {
         "id": 8,
         "firstname": "Shaina",
-        "lastname": "Brown",
         "description": "I'm a Social Worker",
         "imageUrl": "asddasd",
-        "secondImageUrl": "fdasd"
     },
     {
         "id": 9,
         "firstname": "Darrell",
-        "lastname": "Brown",
         "description": "I'm a Social Worker",
         "imageUrl": "asddasd",
-        "secondImageUrl": "fdasd"
+    },
+    {
+        "id": 10,
+        "firstname": "Jimmy Jams",
+        "description": "Hello World!  My handle is DJ Jimmy Jams.  I provide a pleasurable karaoke experience.  Equipped with my own lighting and a fog machine, I bring a bright and professional experience to the singers and the crowd.  I make sure everyone feels welcome and has a good time.  My singing hobby turned into a part-time job; and I love it!  I tailor the sound so everyone sounds good when they get behind that mic, or those mics (sometimes I get a crowd up on that stage).  If you’d like a memorable experience and a wonderful night, come see me at one of our shows. I look forward to meeting you.",
+        "imageUrl": require("../images/people/jimmy.jpg"),
+    },
+    {
+        "id": 11,
+        "firstname": "Don",
+        "description": "Don attended Eastern Illinois University. He focused on vocal music performance. His love for music expanded into professional sound production, running sound for bands for 12 years. In 2013, Don started DJing and MCing at conferences, bars, restaurants, and churches. Although he is well rounded in his music genre he enjoys 80s hip-hop, classic rock, and even EDM. He has an excellent ear for sound with our DJ equipment and makes any singer sound professionally produced.",
+        "imageUrl": require("../images/people/don.jpg"),
+    },
+    {
+        "id": 12,
+        "firstname": "Jean",
+        "description": "My background comes from a passion for all genres of music. As the owner, I run multiple service entities. I know how to energize and motivate people. I set up training sessions for our DJs and KJs to continue to hone their craft. I enjoy showing up to our venues to support the business (bar/restaurant). I get behind the board to fill in for karaoke when needed.",
+        "imageUrl": require("../images/people/jean.jpg"),
     }
 ]

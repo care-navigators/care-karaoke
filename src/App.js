@@ -4,7 +4,9 @@ import Bios from "./pages/bios.js";
 import About from "./pages/about.js";
 import Everyone from "./pages/everyone.js";
 import NotFound from "./pages/notfound.js";
-import Services from "./pages/services.js";
+import Service from "./pages/service.js";
+import Services from './pages/services.js';
+
 
 //Logos are sourced from --> https://uxwing.com/tag/social-media-icons/
 import fb from "./images/icons/fb.png";
@@ -33,7 +35,8 @@ export default function Navigation() {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li className="services-link">
-              Services
+             <Link to="/Services">Services</Link>     
+
                 <ul className="services-dropdown">
                   <li><Link to="/services/0">Weddings</Link></li>
                   <li><Link to="/services/1">Karaoke</Link></li>
@@ -84,9 +87,10 @@ export default function Navigation() {
       <div className="tabcontent">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/services/:id" element={<Services />} />
+          <Route path="/services/:id" element={<Service />} />
           <Route path="/bios/:id" element={<Bios />} />
           <Route path="/about" element={<About />} />
+          <Route path="/services/" element={<Services />} />
           {/* <Route path="/bios" element={<Everyone />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -1,0 +1,41 @@
+
+.service {
+    display: block;
+    flex-wrap: wrap;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    /* place-content: center;
+    gap: 4vh;
+    min-height: 100vh;
+    width: min(60ch, 100vw - 2rem);
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.5rem;
+    line-height: 1.5; */
+  }
+  
+  
+  .bottom-half {
+    display: inline;    
+  }
+  
+  .top-half {
+    display: inline-block;    
+  }
+  
+  .img-container{
+  
+  }
+  
+  .services-img{
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .service-desc{
+    
+    align-items: center;
+    justify-content: center;
+  }
