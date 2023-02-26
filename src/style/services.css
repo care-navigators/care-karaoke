@@ -171,6 +171,13 @@ ul {
   margin-bottom: 20px;
 }
 
+.picture-conatiner{
+    color: #a00000;
+    display: inline-block;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
 .we-offer-area .item h4 {
   font-weight: 600;
   text-transform: capitalize;

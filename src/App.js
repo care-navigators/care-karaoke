@@ -47,8 +47,7 @@ export default function Navigation() {
                 </ul>
           </li>
           <li className="services-link">
-                {/* <Link to="/Bios">Bios</Link>     */}
-                  Bios   
+              <Link to="/Bios">Bios</Link>     
                 <ul className="services-dropdown">
                   <li><Link to="/Bios/0">James</Link></li>
                   <li><Link to="/Bios/1">Jeremy</Link></li>
@@ -91,7 +90,7 @@ export default function Navigation() {
           <Route path="/bios/:id" element={<Bios />} />
           <Route path="/about" element={<About />} />
           <Route path="/services/" element={<Services />} />
-          {/* <Route path="/bios" element={<Everyone />} /> */}
+          <Route path="/bios" element={<Everyone />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
