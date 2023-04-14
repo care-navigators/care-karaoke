@@ -3,13 +3,13 @@ export const Data = [
         "id": 0,
         "firstname": "James",
         "description": "I'm a Social Worker that loves to lift. I also am the governor of california and have starred in movies",
-        "imageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
+        "imageUrl": require("../images/people/jean.jpg"),
     },
     {
         "id": 1,
         "firstname": "Jeremy",
         "description": "I'm a Social Worker",
-        "imageUrl": "../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg",
+        "imageUrl": "../images/people/jean.jpg",
     },
     {
         "id": 2,
@@ -33,7 +33,7 @@ export const Data = [
         "id": 5,
         "firstname": "Rachelle",
         "description": "I'm a Social Worker",
-        "imageUrl": "../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg",
+        "imageUrl": "../images/people/jean.jpg",
     },
     {
         "id": 6,
