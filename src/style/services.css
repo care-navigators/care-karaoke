@@ -164,6 +164,11 @@ ul {
   color: #252424;
 }
 
+/* .icon:hover{
+
+    filter:drop-shadow(20px 50px 20px red) invert(75%);
+} */
+
 .we-offer-area .item i {
   color: #a00000;
   display: inline-block;

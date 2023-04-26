@@ -20,7 +20,6 @@ import "./style/header.scss"
 
 
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
   Link
@@ -56,9 +55,12 @@ export default function Navigation() {
                   <li><Link to="/Bios/4">Jarelle</Link></li>
                   <li><Link to="/Bios/5">Rachelle</Link></li>
                   <li><Link to="/Bios/6">Bill</Link></li>
-                  <li><Link to="/Bios/7">Jerm</Link></li>
+                  <li><Link to="/Bios/7">Germ</Link></li>
                   <li><Link to="/Bios/8">Shaina</Link></li>
                   <li><Link to="/Bios/9">Darrell</Link></li>
+                  <li><Link to="/Bios/10">Jimmy</Link></li>
+                  <li><Link to="/Bios/11">Don</Link></li>
+                  <li><Link to="/Bios/12">Jean</Link></li>
                 </ul>
           </li>
           <li><Link to="/about">About Us</Link></li>

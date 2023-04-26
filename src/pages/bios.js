@@ -11,9 +11,13 @@ export default function Bios() {
         <div className='bios'>
             <div className='left-half'>
                 <h1> { Data[id].firstname }  </h1>
-                <a className='img-container'>
-                    <img className='bios-img' alt="bios-photo" src={Data[id].imageUrl}/>
-                </a>
+                <div className='img-container'>
+                    <a>
+                        <img className='bios-img' alt="bios-photo" 
+                        style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
+                        src={Data[id].imageUrl}/>
+                    </a>
+                </div>
             </div>
             <p>
                 {Data[id].description}

@@ -8,23 +8,18 @@ export default function Service() {
     let { id } = useParams(); 
 
     return(
-        <div className='service'>
-            <div className='top-half'>
-                <h2> { Data[id].name }  </h2>
-                <a className='img-container'>
-                    <img className='services-img' alt="services-photo" src={Data[id].imageUrl}/>
-                </a>
-                <blockquote className='services-desc' >
-                    <p>
-                        {Data[id].description}
-                    </p>
-                </blockquote>
+        <div className='bios'>
+            <div className='left-half'>
+                <h1> { Data[id].name }  </h1>
+                <div className='img-container'>
+                    <a >
+                        <img className='bios-img' alt="bios-photo" src={Data[id].imageUrl}/>
+                    </a>
+                </div>
             </div>
-            <div className='bottom-half'>
-                <a className='img-container'>
-                    <img className='services-img' alt="services-photo-2" src={Data[id].imageUrl}/>
-                </a>
-            </div>
+            <p>
+                {Data[id].description}
+            </p>
         </div>
     )
 }

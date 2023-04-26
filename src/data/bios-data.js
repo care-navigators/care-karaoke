@@ -43,8 +43,8 @@ export const Data = [
     },
     {
         "id": 7,
-        "firstname": "Jerm",
-        "description": "I'm a Social Worker",
+        "firstname": "DJ Germ",
+        "description": "I am The Infectious DJ Germ.  I am here to rock your world. I  rock the party. Wait…wait… I am the party. I relate to all generations and all people. The main goal is for you to have a good time. If you want to sing I got you covered. If you want to dance, you want it loud and need base thumping beats. Look no further, I’m your DJ",
         "imageUrl": "asddasd",
     },
     {

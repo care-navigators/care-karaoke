@@ -23,7 +23,12 @@ export default function Everyone() {
                                 <div key={id} href={id} className="col-md-4 col-sm-6 equal-height">
                                     <div className="item">
                                         <div className='picture-container' >
-                                             <img key={id} className="icon" src={imageUrl}/>  
+                                             <img 
+                                             key={id} 
+                                             className="icon" 
+                                             src={imageUrl}                         
+                                             style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
+                                            />  
                                         </div>
                                         <h4>{firstname}</h4>
                                         <p>
