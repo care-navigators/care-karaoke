@@ -2,7 +2,7 @@ export const Data = [
     {
         "id": 0,
         "name": "Weddings",
-        "description": "I'm a Social Worker that loves to lift. I also am the governor of california and have starred in movies",
+        "description": "Care Karaoke understands that your wedding day is special, which is why we offer bespoke karaoke experiences that are tailored to your preferences. Our comprehensive music library includes a range of songs and genres, ensuring that you and your guests will have a great time.",
         "imageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
         "secondImageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
         "icon": require("../images/icons/wedding-ring-icon.png")
@@ -10,42 +10,42 @@ export const Data = [
     {
         "id": 1,
         "name": "Karaoke",
-        "description": "I'm a Social Worker that loves to lift. I also am the governor of california and have starred in movies",
-        "imageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
+        "description": "Care Karaoke hosts regular karaoke nights at bars, clubs, and restaurants, providing a fun and interactive experience for patrons to sing their hearts out. Our karaoke nights are known for their vibrant atmosphere and enthusiastic crowds, making them a perfect choice for those who love to sing and socialize.",
+        "imageUrl": require("../images/services/karaoke/image10.jpeg"),
         "secondImageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
         "icon": require("../images/icons/mic.png")
 
     },
     {
         "id": 2,
-        "name": "DS",
-        "description": "I'm a Social Worker that loves to lift. I also am the governor of california and have starred in movies",
-        "imageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
-        "secondImageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
-        "icon": require("../images/icons/wedding-ring-icon.png")
-    },
-    {
-        "id": 3,
-        "name": "Corporation",
-        "description": "I'm a Social Worker that loves to lift. I also am the governor of california and have starred in movies",
+        "name": "Corporate",
+        "description": "Care Karaoke is a premier karaoke company that provides customized karaoke services for corporate events, including team-building activities, company parties, and conferences. Our experienced team can help you create a fun and interactive atmosphere that will engage your attendees and make your event truly memorable.",
         "imageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
         "secondImageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
         "icon": require("../images/icons/corp.png")
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Events",
-        "description": "I'm a Social Worker that loves to lift. I also am the governor of california and have starred in movies",
-        "imageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
+        "description": "Care Karaoke offers professional karaoke equipment and services for various events such as birthdays, anniversaries, and holiday parties. We use top-of-the-line sound systems and lighting to create a fun and engaging atmosphere that will keep your guests entertained.",
+        "imageUrl": require("../images/services/events/image16.jpeg"),
         "secondImageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
         "icon": require("../images/icons/events.png")
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Parties",
-        "description": "I'm a Social Worker that loves to lift. I also am the governor of california and have starred in movies",
-        "imageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
+        "description": "Care Karaoke brings the party to life with our high-quality sound systems and extensive music library. We cater to all types of parties and celebrations, including private events and public venues. Our team of karaoke professionals will make sure your guests have a great time and leave with unforgettable memories.",
+        "imageUrl": require("../images/services/parties/image8.jpeg"),
         "secondImageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
         "icon": require("../images/icons/party.png")
+    },
+    {
+        "id": 5,
+        "name": "DJ Service",
+        "description": "A DJ service that offers professional sound and lighting equipment, as well as a vast music library spanning multiple genres and decades. They can cater to a wide range of events, including weddings, corporate parties, school dances, and private events. The DJ will work with clients to create custom playlists and announcements, ensuring that the event runs smoothly and guests have a memorable experience. Additionally, some professional DJs may offer additional services such as photo booths or video projection, to enhance the overall entertainment experience.",
+        "imageUrl": require("../images/services/dj/312564124_496822549128759_7042575650690721525_n.jpg"),
+        "secondImageUrl": require("../images/services/dj/312564124_496822549128759_7042575650690721525_n.jpg"),
+        "icon": require("../images/icons/wedding-ring-icon.png")
     },
 ]

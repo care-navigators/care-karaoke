@@ -13,7 +13,9 @@ export default function Service() {
                 <h1> { Data[id].name }  </h1>
                 <div className='img-container'>
                     <a >
-                        <img className='bios-img' alt="bios-photo" src={Data[id].imageUrl}/>
+                        <img className='bios-img' 
+                        style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
+                        alt="bios-photo" src={Data[id].imageUrl}/>
                     </a>
                 </div>
             </div>

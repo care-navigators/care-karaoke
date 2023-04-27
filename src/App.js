@@ -39,28 +39,28 @@ export default function Navigation() {
                 <ul className="services-dropdown">
                   <li><Link to="/services/0">Weddings</Link></li>
                   <li><Link to="/services/1">Karaoke</Link></li>
-                  <li><Link to="/services/2">DS</Link></li>
-                  <li><Link to="/services/3">Corporation</Link></li>
-                  <li><Link to="/services/4">Events</Link></li>
-                  <li><Link to="/services/5">Parties</Link></li>
+                  <li><Link to="/services/2">Corporate</Link></li>
+                  <li><Link to="/services/3">Events</Link></li>
+                  <li><Link to="/services/4">Parties</Link></li>
+                  <li><Link to="/services/5">DJ Service</Link></li>
                 </ul>
           </li>
           <li className="services-link">
-              <Link to="/Bios">Bios</Link>     
+              <Link to="/Bios">Meet The Team</Link>     
                 <ul className="services-dropdown">
-                  <li><Link to="/Bios/0">James</Link></li>
-                  <li><Link to="/Bios/1">Jeremy</Link></li>
-                  <li><Link to="/Bios/2">Zach</Link></li>
-                  <li><Link to="/Bios/3">Danny</Link></li>
-                  <li><Link to="/Bios/4">Jarelle</Link></li>
-                  <li><Link to="/Bios/5">Rachelle</Link></li>
-                  <li><Link to="/Bios/6">Bill</Link></li>
-                  <li><Link to="/Bios/7">Germ</Link></li>
-                  <li><Link to="/Bios/8">Shaina</Link></li>
-                  <li><Link to="/Bios/9">Darrell</Link></li>
-                  <li><Link to="/Bios/10">Jimmy</Link></li>
-                  <li><Link to="/Bios/11">Don</Link></li>
-                  <li><Link to="/Bios/12">Jean</Link></li>
+                  <li><Link to="/Bios/0">Jimmy Jams</Link></li>
+                  <li><Link to="/Bios/1">Don</Link></li>
+                  <li><Link to="/Bios/2">Jean</Link></li>
+                  <li><Link to="/Bios/3">Bill</Link></li>
+                  <li><Link to="/Bios/4">DJ Germ</Link></li>
+                  {/* <li><Link to="/Bios/5">Jeremy</Link></li>
+                  <li><Link to="/Bios/6">Zach</Link></li>
+                  <li><Link to="/Bios/7">Danny</Link></li>
+                  <li><Link to="/Bios/8">Jarelle</Link></li>
+                  <li><Link to="/Bios/9">James</Link></li>
+                  <li><Link to="/Bios/10">Rachelle</Link></li>
+                  <li><Link to="/Bios/11">Shaina</Link></li>
+                  <li><Link to="/Bios/12">Darrell</Link></li> */}
                 </ul>
           </li>
           <li><Link to="/about">About Us</Link></li>
