@@ -18,7 +18,8 @@ export default function Services() {
                             const {name, shortDescription, icon} = services;
                             return (
                                 <div key={id} href={id} className="col-md-4 col-sm-6 equal-height">
-                                    <div className="item">
+                                    <div className="item" >
+                                        <a href={"services/" + id} >
                                         <i key={id} src={icon}>
                                              <img key={id} className="icon" src={icon}/>  
                                         </i>
@@ -26,6 +27,7 @@ export default function Services() {
                                         <p>
                                             {shortDescription} 
                                         </p>
+                                        </a>
                                     </div>
                                 </div>
                             );

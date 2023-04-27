@@ -1,0 +1,57 @@
+
+@media screen and (max-width: 480px) and (min-width: 350px)  {
+    .bios {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 280px;
+      margin: auto;
+      text-align: center;
+    
+    }
+    }
+    
+    @media screen and (max-width: 350px)  {
+      .bios {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 220px;
+        margin: auto;
+        text-align: center;
+      
+      }
+    
+    .bios p{
+    padding: 20px;
+    }
+      
+    }
+    
+    @media screen and (min-width: 480px) and (max-width: 800px){
+      .bios {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+      }
+      }
+    
+      @media screen and (min-width: 800px) {
+        .bios {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          max-width: 800px;
+          margin: auto;
+          text-align: center;
+        }
+        }
+    
+    
+    .bios-img{
+      border-radius: 8px;
+      width: 100%;
+    }
+    
+    
+  .carousel-container{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+  }  
