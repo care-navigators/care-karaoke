@@ -29,12 +29,12 @@ export const Data = [
         "description": "I am The Infectious DJ Germ.  I am here to rock your world. I  rock the party. Wait…wait… I am the party. I relate to all generations and all people. The main goal is for you to have a good time. If you want to sing I got you covered. If you want to dance, you want it loud and need base thumping beats. Look no further, I’m your DJ",
         "imageUrl": require("../images/people/germ.jpeg"),
     },
-    // {
-    //     "id": 5,
-    //     "firstname": "Jeremy",
-    //     "description": "I'm a Social Worker",
-    //     "imageUrl": "../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg",
-    // },
+    {
+        "id": 5,
+        "firstname": "Tiffany",
+        "description": "Tiffany brings a passionate energy and dedication to every event. Tiffany is a true professional jack of all trades. From Karaoke, Bingo, Singo, and Trivia events, Tiffany’s your girl! She is excited to be a part of such a talented team and looks forward to making your night magical. ",
+        "imageUrl": require("../images/people/tiff.jpg"),
+    },
     // {
     //     "id": 6,
     //     "firstname": "Zach",

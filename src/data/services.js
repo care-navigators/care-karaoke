@@ -3,7 +3,7 @@ export const Data = [
         "id": 0,
         "name": "Weddings",
         "description": "Care Karaoke understands that your wedding day is special, which is why we offer bespoke karaoke experiences that are tailored to your preferences. Our comprehensive music library includes a range of songs and genres, ensuring that you and your guests will have a great time.",
-        "imageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
+        "imageUrl": require("../images/services/weddings/wedding.jpg"),
         "secondImageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
         "icon": require("../images/icons/wedding-ring-icon.png")
     },
@@ -20,7 +20,7 @@ export const Data = [
         "id": 2,
         "name": "Corporate",
         "description": "Care Karaoke is a premier karaoke company that provides customized karaoke services for corporate events, including team-building activities, company parties, and conferences. Our experienced team can help you create a fun and interactive atmosphere that will engage your attendees and make your event truly memorable.",
-        "imageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
+        "imageUrl": require("../images/services/corporate/antenna-ZDN-G1xBWHY-unsplash.jpg"),
         "secondImageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
         "icon": require("../images/icons/corp.png")
     },
@@ -46,6 +46,6 @@ export const Data = [
         "description": "A DJ service that offers professional sound and lighting equipment, as well as a vast music library spanning multiple genres and decades. They can cater to a wide range of events, including weddings, corporate parties, school dances, and private events. The DJ will work with clients to create custom playlists and announcements, ensuring that the event runs smoothly and guests have a memorable experience. Additionally, some professional DJs may offer additional services such as photo booths or video projection, to enhance the overall entertainment experience.",
         "imageUrl": require("../images/services/dj/312564124_496822549128759_7042575650690721525_n.jpg"),
         "secondImageUrl": require("../images/services/dj/312564124_496822549128759_7042575650690721525_n.jpg"),
-        "icon": require("../images/icons/wedding-ring-icon.png")
+        "icon": require("../images/icons/icons8-dj-50.png")
     },
 ]

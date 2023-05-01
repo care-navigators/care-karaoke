@@ -1,8 +1,6 @@
 
 import {Data} from '../data/bios-data'
 import "../style/everyone.css";
-import "../style/services.css"
-
 
 export default function Everyone() {
     return (
