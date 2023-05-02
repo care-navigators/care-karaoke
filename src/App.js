@@ -55,6 +55,7 @@ export default function Navigation() {
                   <li><Link to="/Bios/4">DJ Germ</Link></li>
                   <li><Link to="/Bios/5">Tiffany</Link></li>
                   <li><Link to="/Bios/6">Shaina</Link></li>
+                  <li><Link to="/Bios/7">Darrell</Link></li>
                   {/* <li><Link to="/Bios/5">Jeremy</Link></li>
                   <li><Link to="/Bios/6">Zach</Link></li>
                   <li><Link to="/Bios/7">Danny</Link></li>

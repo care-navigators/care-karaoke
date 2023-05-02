@@ -41,6 +41,12 @@ export const Data = [
         "description": "I’m Shaina. I want to make sure everyone is having a good time. I enjoy the adults and kids singing. I’m a laid back, but fun KJ/DJ. I tend to make people feel welcome because I am open minded. My specialty is karaoke. I like working with different types of people. I am interested in making sure all of my singers sound amazing by paying attention to detail",
         "imageUrl": require("../images/people/shaina.jpg"),
     },
+    {
+        "id": 7,
+        "firstname": "Darrell",
+        "description": "I have been spinning records and making music, my since I have been 12 years old. I started with music as a hobby and passion, and now enjoy it as part of my livelihood. I am a professional, DJ who enjoys creating your memories and dreams at your wedding. I will meet with you in advance to discuss some music, events, your dreams and wishes and ensure that becomes reality on your special day. I also loved working at restaurant/bars and events whether it's corporate or a picnic. I am definitely a DJ who mixes music, but can also be your karaoke, KJ. I will Bri very respectful and compassionate at your event. I can also bring the energy and exciting vibe.",
+        "imageUrl": require("../images/people/darrell.jpg"),
+    },
 
     // {
     //     "id": 6,
