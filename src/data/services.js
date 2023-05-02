@@ -2,7 +2,7 @@ export const Data = [
     {
         "id": 0,
         "name": "Weddings",
-        "description": "Care Karaoke understands that your wedding day is special, which is why we offer bespoke karaoke experiences that are tailored to your preferences. Our comprehensive music library includes a range of songs and genres, ensuring that you and your guests will have a great time.",
+        "description": "We understand that your wedding day is special. Our DJs are here to make sure you have the best experience of your life. We strive for perfection. We will meet with you ahead of time to discuss your wishes and dreams for the event. We will create specialized playlists for the event with your preferences in mind. Our comprehensive music library includes a range of songs and genres, ensuring that you and your guests will have a great time. We will respect you and your guests and treat them like family. By the end of the event you will be calling your DJ, your friend we can be is energized, and high-pressure look like or as serene and subdued as you wish. We can provide as much lighting as you wish to make the event fun and unforgettable.",
         "imageUrl": require("../images/services/weddings/wedding.jpg"),
         "secondImageUrl": require("../images/people/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg"),
         "icon": require("../images/icons/wedding-ring-icon.png")
