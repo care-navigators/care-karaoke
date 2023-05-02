@@ -39,7 +39,7 @@ export const Data = [
         "id": 6,
         "firstname": "Shaina",
         "description": "I’m Shaina. I want to make sure everyone is having a good time. I enjoy the adults and kids singing. I’m a laid back, but fun KJ/DJ. I tend to make people feel welcome because I am open minded. My specialty is karaoke. I like working with different types of people. I am interested in making sure all of my singers sound amazing by paying attention to detail",
-        "imageUrl": require("../images/people/tiff.jpg"),
+        "imageUrl": require("../images/people/shaina.jpg"),
     },
 
     // {
